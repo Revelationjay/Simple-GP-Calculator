@@ -8,6 +8,9 @@ class Calculator extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+          primaryColor: Colors.amber[900]
+      ),
       home: SplashScreen(),
       debugShowCheckedModeBanner: false,
     );
